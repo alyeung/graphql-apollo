@@ -30,3 +30,7 @@ Breaks:
 ### Instructor's Resources
 
 - [DevelopIntelligence](http://www.developintelligence.com/)
+
+### Solutions on Gitlab
+
+-https://gitlab.com/t4d-classes/graphql-apollo_02142019 
