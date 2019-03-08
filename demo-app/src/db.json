@@ -1,0 +1,62 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "make": "Ford",
+      "model": "F-150",
+      "year": 2010,
+      "color": "green",
+      "price": 25000
+    },
+    {
+      "id": 2,
+      "make": "Chevrolet",
+      "model": "Cruze",
+      "year": 2012,
+      "color": "blue",
+      "price": 15000
+    },
+    {
+      "id": 3,
+      "make": "Tesla",
+      "model": "Model S",
+      "year": 2017,
+      "color": "red",
+      "price": 120000
+    }
+  ],
+  "widgets": [
+    {
+      "id": 1,
+      "name": "Widget A",
+      "description": "Small, Red Widget",
+      "color": "red",
+      "price": 10,
+      "quantity": 99
+    },
+    {
+      "id": 2,
+      "name": "Widget B",
+      "description": "Medium, Blue Widget",
+      "color": "blue",
+      "price": 5,
+      "quantity": 50
+    },
+    {
+      "id": 3,
+      "name": "Widget C",
+      "description": "Large, Yellow Widget",
+      "color": "yellow",
+      "price": 15,
+      "quantity": 75
+    },
+    {
+      "id": 4,
+      "name": "Widget D",
+      "description": "Medium, Red Widget",
+      "color": "red",
+      "price": 20,
+      "quantity": 21
+    }
+  ]
+}
