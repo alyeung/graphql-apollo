@@ -3,11 +3,11 @@ import React from 'react';
 import data from './db.json';
 
 import { CarTool } from './components/cars/CarTool';
-import { WidgetTool } from './components/widgets/WidgetTool';
+import { WidgetToolQuery } from './queries/widgets/WidgetToolQuery';
 
 export const App = () => {
   return <>
-    <WidgetTool widgets={data.widgets} />
+    <WidgetToolQuery />
     <CarTool cars={data.cars} />
   </>;
 };
