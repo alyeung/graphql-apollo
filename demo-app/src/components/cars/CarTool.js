@@ -3,7 +3,8 @@ import PropTypes from 'prop-types';
 
 import { ToolHeader } from '../shared/ToolHeader';
 import { CarTable } from './CarTable';
-import { CarForm } from './CarForm';
+//import { CarForm } from './CarForm';
+import { CarFormMutation} from '../../mutations/cars/CarFormMutation';
 
 export const CarTool = ({ cars: initialCars }) => {
 
@@ -14,13 +15,13 @@ export const CarTool = ({ cars: initialCars }) => {
     setEditCarId(carId);
   };
 
-  const addCar = car => {
-    setCars(cars.concat({
-      ...car,
-      id: Math.max(...cars.map(c => c.id), 0) + 1,
-    }));
-    setEditCarId(-1);
-  };
+  // const addCar = car => {
+  //   setCars(cars.concat({
+  //     ...car,
+  //     id: Math.max(...cars.map(c => c.id), 0) + 1,
+  //   }));
+  //   setEditCarId(-1);
+  // };
 
   const deleteCar = carId => {
     setCars(cars.filter(car => car.id !== carId));
@@ -49,7 +50,7 @@ export const CarTool = ({ cars: initialCars }) => {
   return <>
     <ToolHeader headerText="Car Tool" />
     <CarTable {...carTableProps} />
-    <CarForm buttonText="Add Car" onSubmitCar={addCar} />
+    <CarFormMutation />
   </>;
 
 };
