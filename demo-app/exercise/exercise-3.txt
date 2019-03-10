@@ -1,0 +1,10 @@
+Exercise 3
+
+1. Implement a mutation on the GraphQL server for appending car.
+
+2. Write a mutation query and run it in the GraphQL playground to append a car.
+
+3. Write and execute second query to confirm the car was appended.
+
+4. Ensure it works.
+

@@ -1,0 +1,9 @@
+Exercise 2
+
+1. Solve World Peace
+
+2. Solve World Hunger
+
+3. Using the Query component, display the Cars in Car Tool using a graphql query. Replace the usage of CarTool in App.js with a reference to CarToolQuery which you created.
+
+4. Ensure it works. 

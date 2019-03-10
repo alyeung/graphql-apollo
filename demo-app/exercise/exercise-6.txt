@@ -1,0 +1,12 @@
+Exercise 6
+
+1. Add carToolName to the local client state. Populate the ToolHeader component in Car Tool with the carToolName local client state.
+
+2. Add editCarId to the local client state. Create a mutation component which sets the editCarId on the local client state when the Edit button is clicked in Car Tool.
+
+3. When the 'Cancel' button is clicked in Car Tool, change the row from Edit Row to View Row. (if you choose to do Widgets instead of Car, only do this step).
+
+Bonus: Implement the Save button for Edit Row. The save button saves the changes made to the car. This will involved server-side code, and both server and client mutations.
+
+
+

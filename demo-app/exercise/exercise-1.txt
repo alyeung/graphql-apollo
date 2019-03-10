@@ -1,0 +1,9 @@
+Exercise 1
+
+1. Create a schema type for a Car. Use the car structure from the db.json file to define the object type.
+
+2. Add a resolver to the resolver file to return a list of car types. Use the fetch API and the REST service to get the car data. As part of your implementation use async/await.
+
+3. Write a query using an operation name in the GraphQL playground to retrieve all of the cars.
+
+4. Ensure it works.

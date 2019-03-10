@@ -1,0 +1,19 @@
+Exercise 5
+
+Git: https://gitlab.com/t4d-classes/graphql-apollo_02142019
+
+1. Apply the structural changes we did to Widget Tool to Car Tool.
+
+Change WidgetToolQuery into WidgetTableQuery.
+Utilize WidgetTableQuery in WidgetTool.
+Update App to use WidgetTool instead of WidgetToolQuery.
+
+2. Implement the car delete button using an Apollo mutation component.
+
+- Implement the server side code and test it with the GraphQL Playground: http://localhost:3010/
+
+- The Delete Car Mutation will wrap the Car Table Query in the same which Car Table Query wraps Car Table.
+
+- Use the Delete Car Mutation in CarTool, replacing the Car Table Query. Be sure update the props passed into Delete Car Mutation to reflect that Delete Mutation now handles the delete.
+
+3. Ensure it works.

@@ -1,0 +1,9 @@
+Exercise 4
+
+1. Add a new component named CarFormMutation.
+
+2. CarFormMutation should use a Mutation component and the CarForm component to add new cars to the GraphQL server.
+
+3. Update the cache to display the new car in the CarTool table.
+
+4. Ensure it works.
