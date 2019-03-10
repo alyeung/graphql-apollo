@@ -58,7 +58,7 @@ export const WidgetFormMutation = () => {
                     },
                 });
             };
-            return <WidgetForm buttonTst="Add Widget" onSubmitWidget={appendWidget} />;
+            return <WidgetForm buttonText="Add Widget" onSubmitWidget={appendWidget} />;
 
         }}
     </Mutation>;
