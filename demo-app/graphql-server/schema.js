@@ -8,6 +8,19 @@ export const typeDefs = `
       widget(widgetId: Int!): Widget
   }
 
+  type Mutation{
+    appendWidget(widget: AppendWidget!):Widget
+  }
+
+  input AppendWidget {
+    id: Int
+    name: String
+    description: String
+    quantity: Int
+    color: String
+    price: Float
+  }
+
   type Widget {
     id: Int
     name: String

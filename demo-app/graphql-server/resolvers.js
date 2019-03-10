@@ -36,4 +36,16 @@ export const resolvers = {
         return await res.json();
       }
   },
+  Mutation:{
+    appendWidget: async(_, {widget}, {restURL}) =>{
+      const rest = await fetch(`${restURL}/widgets/`, {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify(widget),
+
+      });
+
+      return await res.json();
+    }
+  }
 };
