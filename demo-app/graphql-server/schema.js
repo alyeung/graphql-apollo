@@ -5,6 +5,7 @@ export const typeDefs = `
       customer: Person
       widgets: [Widget]
       cars: [Car]
+      widget(widgetId: Int!): Widget
   }
 
   type Widget {

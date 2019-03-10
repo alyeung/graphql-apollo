@@ -26,6 +26,11 @@ export const resolvers = {
       // not blocking javascript thread
       return await res.json();
     },
+    widget: async(_, args, context) => {
+      const escapedWidgetId = encodeURIComponent(args.widgetId);
+      const res = await fetch(`${context.restURL}/widgets/${escapedWidgetId}`);
+      return await res.json();
+    },
       cars: async(_1, _2, context) => {
         const res = await fetch(`${context.restURL}/cars`)
         return await res.json();
