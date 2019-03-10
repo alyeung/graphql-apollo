@@ -33,4 +33,8 @@ Breaks:
 
 ### Solutions on Gitlab
 
--https://gitlab.com/t4d-classes/graphql-apollo_02142019 
+- https://gitlab.com/t4d-classes/graphql-apollo_02142019 
+
+### JSON Server
+
+- https://github.com/typicode/json-server
