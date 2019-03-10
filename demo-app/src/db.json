@@ -23,6 +23,14 @@
       "year": 2017,
       "color": "red",
       "price": 120000
+    },
+    {
+      "id": 7,
+      "make": "Nissan",
+      "model": "Frontier",
+      "year": 2012,
+      "color": "Silver",
+      "price": 20000
     }
   ],
   "widgets": [
@@ -57,6 +65,38 @@
       "color": "red",
       "price": 20,
       "quantity": 21
+    },
+    {
+      "name": "F",
+      "description": "G",
+      "quantity": 3,
+      "color": "chartreuse",
+      "price": 12.34,
+      "id": 5
+    },
+    {
+      "name": "F",
+      "description": "G",
+      "quantity": 3,
+      "color": "chartreuse",
+      "price": 12.34,
+      "id": 6
+    },
+    {
+      "name": "F",
+      "description": "G",
+      "quantity": 3,
+      "color": "chartreuse",
+      "price": 12.34,
+      "id": 7
+    },
+    {
+      "name": "F",
+      "description": "G",
+      "quantity": 3,
+      "color": "chartreuse",
+      "price": 12.34,
+      "id": 8
     }
   ]
 }

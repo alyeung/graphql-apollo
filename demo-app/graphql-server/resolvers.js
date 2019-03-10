@@ -46,6 +46,16 @@ export const resolvers = {
       });
 
       return await res.json();
+    },
+    appendCar: async(_, {car}, {restURL}) =>{
+      const res = await fetch(`${restURL}/cars/`, {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify(car),
+
+      });
+
+      return await res.json();
     }
   }
 };
