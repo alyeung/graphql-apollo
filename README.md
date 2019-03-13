@@ -38,3 +38,7 @@ Breaks:
 ### JSON Server
 
 - https://github.com/typicode/json-server
+
+### Apollo developer tools to help with cache inspection
+
+- https://chrome.google.com/webstore/detail/apollo-client-developer-t/jdkknkkbebbapilgoeccciglkfbmbnfm?hl=en-US 
